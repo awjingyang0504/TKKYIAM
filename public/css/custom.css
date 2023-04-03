@@ -1,0 +1,14 @@
+iframe {
+    display: block;
+    margin: 0 auto;
+    border-style: none;
+}
+.bloc
+{
+    display:inline;
+    margin-left: 10px;
+
+}
+#bloc_paticipant_name{
+    display:inline;
+}

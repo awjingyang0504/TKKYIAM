@@ -1,0 +1,38 @@
+HTML CSS JSResult Skip Results Iframe
+body {
+margin: 0;
+padding: 0;
+font: 16px/20px sans-serif;
+}
+.wrapper {
+padding: 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+transition: 1000ms ease;
+}
+.card {
+transform: translate(0px, 0px);
+width: calc(33.33% - 14px);
+box-sizing: border-box;
+margin: 0 0 20px;
+padding: 20px;
+background: #fff;
+border-radius: 8px;
+box-shadow: 0 3px 1px 0 rgba(0,0,0,0.1);
+transition: 1000ms ease;
+cursor: pointer;
+}
+.dash-expand {
+width: calc(66.66% - 14px);
+transition: 1000ms ease;
+}
+.card * {
+display: none;
+}
+.card-view {
+display: block;
+}
+.dash-expand * {
+display: block;
+}
